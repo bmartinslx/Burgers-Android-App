@@ -126,8 +126,8 @@
 
     <TextView
         android:id="@+id/totalDisplay"
-        android:layout_width="221dp"
-        android:layout_height="57dp"
+        android:layout_width="318dp"
+        android:layout_height="72dp"
         android:textColor="#5E5D60"
         android:textSize="16sp"
         app:backgroundTint="#3C3A3E"

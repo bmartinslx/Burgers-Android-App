@@ -79,8 +79,8 @@ public class MainActivity extends AppCompatActivity {
                 totalDisplay = findViewById(R.id.totalDisplay);
                 EditText txtName = findViewById(R.id.txtName);
 
-                totalDisplay.setText("Your total is $" + String.valueOf(quantity * 10) + "!!"
-                        + "\n" + "Thanks for buying with us!, " + txtName.getText().toString() + "!!");
+                totalDisplay.setText("Your total is $" + String.valueOf(quantity * 10) + "."
+                        + "\n" + "Thanks for buying with us, " + txtName.getText().toString() + "!!");
                 totalDisplay.setVisibility(View.VISIBLE);
             }
         });
